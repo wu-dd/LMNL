@@ -1,6 +1,6 @@
 # Learning with Real-world Noisy Labels: A Consistency Training Solution
 
-This is the implementation of our solution for the first learning and mining with noisy labels challenge in 2022 IJCAI-ECAI.
+This is the implementation of our solution for the first learning and mining with noisy labels challenge in IJCAI-ECAI 2022.
 
 
 
