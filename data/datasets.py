@@ -42,7 +42,7 @@ test_cifar100_transform = transforms.Compose([
 ])
 def input_dataset(dataset, noise_type, noise_path, is_human):
     if dataset == 'cifar10':
-        train_dataset = CIFAR10(root='../data/',
+        train_dataset = CIFAR10(root='./data/',
                                 download=True,  
                                 train=True, 
                                 transform = train_cifar10_transform,
@@ -50,7 +50,7 @@ def input_dataset(dataset, noise_type, noise_path, is_human):
                                 noise_type = noise_type,
                                 noise_path = noise_path, is_human=is_human
                            )
-        test_dataset = CIFAR10(root='../data/',
+        test_dataset = CIFAR10(root='./data/',
                                 download=False,  
                                 train=False, 
                                 transform = test_cifar10_transform,
@@ -60,7 +60,7 @@ def input_dataset(dataset, noise_type, noise_path, is_human):
         num_classes = 10
         num_training_samples = 50000
     elif dataset == 'cifar100':
-        train_dataset = CIFAR100(root='../data/',
+        train_dataset = CIFAR100(root='./data/',
                                 download=True,  
                                 train=True, 
                                 transform=train_cifar100_transform,
@@ -68,7 +68,7 @@ def input_dataset(dataset, noise_type, noise_path, is_human):
                                 noise_type=noise_type,
                                 noise_path = noise_path, is_human=is_human
                             )
-        test_dataset = CIFAR100(root='../data/',
+        test_dataset = CIFAR100(root='./data/',
                                 download=False,  
                                 train=False, 
                                 transform=test_cifar100_transform,
