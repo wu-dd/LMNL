@@ -5,10 +5,16 @@ This is the implementation of our solution for the first learning and mining wit
 
 
 Requirements: 
-Python 3.6.9, 
-numpy 1.19.5, 
-torch 1.9.1,
-torchvision 0.10.1.
+
+- python=3.8.12
+- numpy=1.21.2
+- pillow=8.4.0
+- pytorch=1.10.2
+- requests=2.27.1
+- scikit-learn=1.0.1
+- scipy=1.7.3
+- torchvision=0.11.3
+
 
 You need to:
 
