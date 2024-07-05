@@ -1,6 +1,6 @@
-# Learning with Real-world Noisy Labels: A Consistency Training Solution
+# LMNL
 
-This is the implementation of our solution for the first learning and mining with noisy labels challenge in IJCAI-ECAI 2022.
+This is the implementation of our solution (Learning with Real-world Noisy Labels: A Consistency Training Solution) for the first learning and mining with noisy labels challenge in IJCAI-ECAI 2022.
 
 
 
